@@ -1,0 +1,54 @@
+Build a modern cross-platform mobile app called "FeelWise" using React Native (or Flutter). 
+The app uses AI to analyze a user's emotions through either text or voice input and displays 
+results using a glassmorphism-style UI with an animated assistant character named "Timori".
+
+📱 App Features:
+
+1. Home Screen:
+   - Glassmorphism UI with two main buttons:
+     - "Analyze Text"
+     - "Analyze Voice"
+
+2. Text Input Screen:
+   - A clean text field for typing emotion-related messages
+   - A large "Submit" button in a glass-style container
+
+3. Emotion Result Screen:
+   - Display detected emotion (e.g., Happy, Sad, Angry, Anxious)
+   - Show animated cartoon assistant character (Timori) with emotion-specific expressions
+   - Suggest a motivational quote or a song using Spotify API
+
+4. History Screen:
+   - List of recent emotional analyses with:
+     - Character icon reflecting emotion
+     - Timestamp (e.g. "14 min ago")
+     - Emotion name (e.g. SAD, HAPPY)
+
+🎨 Design Guidelines:
+- Use full glassmorphism effects (blurred cards, translucent buttons)
+- Apply rounded edges, light gradients, and smooth transitions
+- Support both Dark Mode and Light Mode
+
+🌍 Multi-language Support:
+- Include localization for English, German, and Persian (Farsi)
+- Use the font “Vazir” for Persian content
+
+🧠 Backend & AI:
+- Analyze text with sentiment analysis (HuggingFace, OpenAI, or FastAPI endpoint)
+- For voice input, transcribe with Google Speech-to-Text and then analyze sentiment
+- Store user emotion history locally or in Firebase
+- Add email login (basic Firebase Auth or similar)
+
+🎭 Animated Character:
+- Name: Timori
+- Style: 2D/Cartoon
+- Emotion States:
+  - Happy, Sad, Angry, Anxious, Excited, Calm
+- Show Timori with dynamic animations or facial expressions matching results
+
+💾 Optional Enhancements:
+- Save analysis results to cloud
+- Add chat-style interface for ongoing emotional conversation
+- Use real-time animations when Timori reacts to input
+
+Output fully structured code with modular components, ready to build on real device.
